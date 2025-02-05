@@ -1,0 +1,25 @@
+#brand .icon {
+  width: 125px;
+}
+.portfolio-item {
+  margin-bottom: 1em;
+}
+.portfolio-item > summary {
+  background-color: var(--dimcolor);
+  padding: 0.5em 1em;
+}
+.portfolio-item > summary h3 {
+  display: inline;
+}
+.portfolio-item span.date {
+  float: right;
+}
+.portfolio-item summary p {
+  margin: 0 1.1em;
+}
+.portfolio-item summary a {
+  text-decoration: none;
+}
+.portfolio-item > div {
+  margin-left: 2em;
+}

@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <main>
+    <h1>{{ .Title }}</h1>
+    {{ range $sectionName, $sectionData := .Site.Data.portfolio }}
+      <h2>{{ $sectionName | title }}</h2>
+      {{ range $sectionData }}
+        {{ partial "portfolioItem.html" . }}
+      {{ end }}
+    {{ end }}
+  </main>
+{{ end }}

@@ -1,0 +1,313 @@
+experience:
+  - title: "Senior Information Systems Clerk"
+    date: "Mar 2024 - present"
+    open: true
+    callouts:
+      - name: "Westchester County Dept. of Health, Mount Kisco, NY"
+        link: "https://health.westchestergov.com"
+    collapsed:
+      technologies:
+        - MS Excel
+      specific:
+        - "Multitasked between data entry, directing requests from visitors to
+          staff, assisting legal hearing office staff."
+        - "Improved record request process by compiling a spreadsheet of over
+          6.7K environmental permits."
+  - title: "Computer Science Tutor"
+    date: "Mar - Jun 2020"
+    open: false
+    callouts:
+      - name: "Office for Student Development, CCNY, CUNY"
+        link: "https://www.ccny.cuny.edu/engineering/osd"
+    collapsed:
+      specific:
+        - "Tutored two students (1st and 2nd year) for a total of 5 hours/week
+          via video calls, code sharing, whiteboarding."
+        - "Engaged students by having them work aloud through problems before
+          receiving feedback and answers."
+  - title: "Research fellow"
+    date: "June 2019 - Aug 2019"
+    open: true
+    callouts:
+      - name: "Opportunities in Research and Creative Arts, CCNY"
+        link: "https://www.ccny.cuny.edu/engagement/orca"
+      - name: Code-1
+        link: "https://gitlab.com/ccny-glasslab/ccnyhub-gen-2"
+      - name: Code-2
+        link: "https://gitlab.com/ccny-glasslab/twiddy"
+    collapsed:
+      technologies:
+        - Nginx
+        - Let's Encrypt
+        - FreeIPA
+        - Bash
+        - Vagrant
+      specific:
+        - "Assembled a pedagogical resource for CompSci classes using on-prem
+          servers, JupyterHub, Nginx, Bash."
+        - "Completed the first deliverable, a VM-based solution, and initiated a
+          second one based on Kubernetes."
+  - title: "Research intern"
+    date: "June 2016 - August 2016"
+    callouts:
+      - name: "Memorial Sloan Kettering Cancer Center"
+        link: "https://www.mskcc.org/"
+      - name: Code-1
+        link: "https://gitlab.com/ian-s-mcb/saass"
+      - name: Code-2
+        link: "https://gitlab.com/ian-s-mcb/saass-examples"
+    collapsed:
+      technologies:
+        - Python
+        - Numpy
+        - Scikit-learn
+        - Jupyter Notebook
+      specific:
+        - "Supported the medical imaging project of a PhD candidate by porting
+          his C# algorithm to a Python package."
+        - "Learnt how to apply image processing and ML algorithms, bootstrap
+          PyPi packages, and write documentation."
+education:
+  - title: "Micro-credential in Cybersecurity"
+    date: "April 2021 - June 2021"
+    callouts:
+      - name: "Borough of Manhattan Community College, CUNY"
+        link: "https://www.bmcc.cuny.edu/"
+    collapsed:
+      specific:
+        - "Completed a 100-hour, instructor-led Cybersecurity certification using
+          course work from [Cisco Networking
+          Academy](https://www.netacad.com/)."
+        - "Prototyped networks using the simulator Packet Tracer and
+          inspected traffic using Wireshark."
+  - title: "BS in Computer Science"
+    date: "August 2011 - June 2021"
+    open: true
+    callouts:
+      - name: "The City College of New York, CUNY"
+        link: "https://www.ccny.cuny.edu/"
+      - name: "3.621 GPA"
+      - name: "Magna Cum Laude Honors"
+    collapsed:
+      specific:
+        - "Completed 140 credits, mostly at a Part Time pace, while engaging in
+          clubs and academic research."
+        - "Took one year off from CS studies to studying Mandarin in Taipei,
+          Taiwan after completing CCNY's 4-semester Mandarin sequence."
+      collapsed:
+        title: "Notable classes I took include..."
+        items:
+          - "Artificial Intelligence"
+          - "Web App Development"
+          - "Intro to Data Science"
+          - "Web Security"
+          - "Data Visualization"
+projects:
+  - title: "FFS"
+    date: "Jan 2023 - Present"
+    open: true
+    callouts:
+      - name: Blog post (in-progress)
+    collapsed:
+      technologies:
+        - React
+        - React Query
+        - Supabase
+        - PostgreSQL
+        - GraphQL
+        - Styled-Components
+      list:
+        title: "An e-commerce web app for local produce farmers and their
+          shoppers."
+        items:
+          - "Implemented the React + React Query frontend covering all CRUD ops
+            for inventory management use cases."
+          - "Leveraged Supabase for PostgreSQL/GraphQL backend and
+            authentication."
+          - "Onboarded a collaborator by assigning targeted tasks, holding code
+            reviews, and meeting 4-8 times/month."
+  - title: "SERUM"
+    date: "Nov - Dec 2022"
+    callouts:
+      - name: Code
+        link: "https://gitlab.com/ian-s-mcb/serum"
+      - name: Screencast
+        link: "https://gitlab.com/ian-s-mcb/serum#screencast"
+    collapsed:
+      technologies:
+        - Supabase
+        - Netlify
+        - React
+        - React Router
+        - TailwindCSS
+      list:
+        title: "An auth template for web apps built with Supabase."
+        items:
+          - "Demonstrated an auth workflow with Supabase, Netlify, React,
+            TailwindCSS."
+  - title: "Todooly"
+    date: "Sep - Oct 2021"
+    callouts:
+      - name: Code
+        link: "https://gitlab.com/ian-s-mcb/todooly"
+    collapsed:
+      technologies:
+        - Netlify Functions
+        - FaunaDB
+        - GraphQL
+        - Node.js
+        - React
+      specific:
+        - "Learnt the fundamentals of Netlify Functions and FaunaDB by building
+          a simple to-do list app."
+  - title: "WSNR Lobby"
+    date: "Mar - Sep 2021"
+    open: true
+    callouts:
+      - name: Code-server
+        link: "https://gitlab.com/ian-s-mcb/wsnr-lobby-server"
+      - name: Code-client
+        link: "https://gitlab.com/ian-s-mcb/wsnr-lobby-client"
+      - name: Screencast
+        link: "https://gitlab.com/ian-s-mcb/wsnr-lobby-client#screencast"
+    collapsed:
+      technologies:
+        - WebSockets
+        - Node.js
+        - React
+        - Express.js
+      list:
+        title: "A fullstack, multiplayer, game lobby web app."
+        items:
+          - "Built the frontend of a tic-tac-toe game using React and Bootstrap
+            which included a player meetingplace."
+          - "Enabled multiplayer functionality by building a Node.JS and
+            WebSockets backend, hosted on Heroku."
+  - title: "Smigle"
+    date: "Jun - Jul 2021"
+    callouts:
+      - name: Code
+        link: "https://gitlab.com/ian-s-mcb/smigle-hugo-theme"
+      - name: Profile
+        link: "https://themes.gohugo.io/themes/smigle-hugo-theme/"
+      - name: Demo
+        link: "https://smigle-hugo-theme.netlify.app/"
+    collapsed:
+      technologies:
+        - Hugo
+        - YAML
+      list:
+        title: "A no-frills, no-JS, blog theme in Hugo / Golang that I
+          personally use."
+        items:
+          - "Rewrote a successful theme to be more in line with the original
+            minimalist theme that inspired its author."
+          - "Enabled reuse of theme, which garnered 4 GitLab stars, 9 forks, and
+            several complements via email."
+  - title: "NYC Homeless COVID Impact"
+    date: "Nov 2020 - June 2021"
+    open: true
+    callouts:
+      - name: Code
+        link: "https://gitlab.com/ian-s-mcb/senior-design-final-visualization"
+      - name: Screencast
+        link: "https://gitlab.com/ian-s-mcb/senior-design-final-visualization#screencast"
+    collapsed:
+      technologies:
+        - Python
+        - Scikit-Learn
+        - Plotly Dash
+        - Pandas
+      specific:
+        - "Explored and analyzed geospatial and demographic public datasets
+          using Jupyiter and Scikit-Learn."
+        - "Crafted an interactive data vis using Plotly Dash and React."
+  - title: "Kipnxt"
+    date: "Jan 2021"
+    callouts:
+      - name: Code
+        link: "https://gitlab.com/ian-s-mcb/kipnxt"
+    collapsed:
+      technologies:
+        - Kubernetes
+        - Ansible
+        - Clonezilla
+      specific:
+        - "An Ansible script for building a baremetal Kubernetes cluster."
+        - "Learnt Ansible fundamentals while exploring the architecture and
+          maintenance of Kubernetes."
+  - title: "WSNR Chat"
+    date: "Jun - Jul 2020"
+    callouts:
+      - name: Code-server
+        link: "https://gitlab.com/ian-s-mcb/wsnr-chat-server"
+      - name: Code-client
+        link: "https://gitlab.com/ian-s-mcb/wsnr-chat-client"
+      - name: Screencast
+        link: "https://gitlab.com/ian-s-mcb/wsnr-chat-client#screencast"
+    collapsed:
+      technologies:
+        - WebSockets
+        - Node.js
+        - Express.js
+        - React
+      specific:
+        - "Learnt the fundamentals of WebSockets and Node.JS while building a
+          simple IRC-like chat app."
+  - title: "NYC Data Speaks"
+    date: "Feb - May 2019"
+    open: false
+    callouts:
+      - name: Code
+        link: "https://gitlab.com/ian-s-mcb/nyc-data-speaks"
+      - name: Demo
+        link: "https://master.d2mdn3yvvbw50z.amplifyapp.com/"
+    collapsed:
+      technologies:
+        - AWS
+        - Gatsby
+        - Jest
+      list:
+        title: "A conceptual public data publishing website."
+        items:
+          - "Led a team of 3 students that built, tested, documented a site using
+            AWS Amplify, GraphQL, Gatsby JS, Leaflet, Jest."
+          - "Consulted with NYC Community Board members to identify salient data
+            products for their constituents."
+  - title: "Personal Linux workstation automation"
+    date: "Jun 2015 - Present"
+    callouts:
+      - name: Arch Linux
+        link: "https://gitlab.com/ian-s-mcb/arch-linux"
+      - name: Ubuntu
+        link: "https://gitlab.com/ian-s-mcb/kalavant"
+      - name: Misc
+        link: "https://gitlab.com/ian-s-mcb/scripts"
+    collapsed:
+      technologies:
+        - Bash
+        - Ansible
+      specific:
+        - "Automated the installation and configuration process from
+          disk partitioning to OS to apps."
+  - title: "Flood Data Visualization"
+    date: "Oct - Dec 2014"
+    open: false
+    callouts:
+      - name: "Code"
+        link: "https://gitlab.com/ian-s-mcb/river-delta-data-vis"
+      - name: "Demo"
+        link: "http://ian-s-mcb.github.io/river-delta-deployment/"
+    collapsed:
+      technologies:
+        - "D3.JS"
+        - "Matplotlib"
+        - "Numpy"
+        - "Pandas"
+      list:
+        title: "An interactive infographic website."
+        items:
+          - "Combined data analysis, visualization, and news reports to tell a
+            story about flooding in two major river deltas."
+          - "Explored datasets using Jupyter, Numpy, Matplotlib, and Pandas and
+            build visualization with D3.js and Angular."

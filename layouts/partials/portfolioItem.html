@@ -1,0 +1,60 @@
+{{ $portfolioItem := . }}
+<details class="portfolio-item" {{ if .open }}open=""{{ end }}>
+  <summary><h3 class="title">{{ $portfolioItem.title }}</h3>
+    <span class="date">{{ $portfolioItem.date }}</span>
+    {{ with $portfolioItem.callouts }}
+      <p>
+        {{ range first 1 . }}
+          {{ if .link }}
+            <a class="link" href="{{ .link}}">{{ .name }}</a>
+          {{ else }}
+            <span>{{ .name }}</span>
+          {{ end }}
+        {{ end }}
+        {{ range after 1 . }}
+          |
+          {{ if .link }}
+            <a class="link" href="{{ .link}}">{{ .name }}</a>
+          {{ else }}
+            <span>{{ .name }}</span>
+          {{ end }}
+        {{ end }}
+      </p>
+    {{ end }}
+  </summary>
+  <div>
+    {{ with $collapsed := $portfolioItem.collapsed }}
+      {{ if .technologies }}
+        <p class="technologies">
+          <em>Key Technologies: </em>
+          {{ range first 1 .technologies }}<span>{{ . }}</span>{{ end }}
+          {{- range after 1 .technologies }}, <span>{{ .}}</span>{{ end }}
+        </p>
+      {{ end }}
+      {{ range .specific }}
+        <p>{{ . | markdownify }}</p>
+      {{ end }}
+      {{ if .list }}
+        <p>{{ .list.title }}</p>
+        <ul>
+          {{ range .list.items }}
+            <li>{{ . | markdownify }}</li>
+          {{ end }}
+        </ul>
+      {{ end }}
+      {{ if $collapsed.collapsed }}
+        {{ with $innerItem := $collapsed.collapsed }}
+          <details class="portfolio-inner-item">
+            <summary><span class="title">{{ .title }}</span>
+            </summary>
+            <ul>
+              {{ range .items }}
+                <li>{{ . | markdownify }}</li>
+              {{ end }}
+            </ul>
+          </details>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+</details>
