@@ -1,31 +1,66 @@
-# Blank
+# smigle-hugo-theme
 
-Blank — starter [Hugo](https://gohugo.io/) theme for developers. Use it to make your own theme.
+A minimalist theme for the static site generator [Hugo][hugo]. This
+theme is shared on Hugo's [official collection of
+themes][theme-collection].
 
-**[Demo](https://blank-demo.netlify.app/)**
+### Features
+- No JavaScript
+- No Google spyware or tracking of any kind
+- No other external dependencies or comment sections
+- Only one local font ([Iosevka][font])
 
-![Blank theme screenshot](https://github.com/Vimux/blank/blob/master/images/splash.png)
+### Demo
 
-## Installation
+https://smigle-hugo-theme.netlify.app/
 
-In your Hugo site `themes` directory, run:
+### Screenshots
 
+![smigle screenshot-1][screenshot-1]
+
+### Installation
+
+From the root of your site:
+```bash
+git submodule add https://gitlab.com/ian-s-mcb/smigle-hugo-theme.git themes/smigle
 ```
-git clone https://github.com/vimux/blank
+
+### Updating
+
+From the root of your site:
+```bash
+git submodule foreach git pull origin main
 ```
 
-Next, open `config.toml` in the base of the Hugo site and ensure the theme option is set to `blank`.
+### Run example site
 
+```bash
+hugo new site mysite -f yaml
+cd mysite
+git init
+git submodule add https://gitlab.com/ian-s-mcb/smigle-hugo-theme themes/smigle
+cd themes/smigle/exampleSite
+hugo server
 ```
-theme = "blank"
-```
 
-For more information read the official [quick start guide](https://gohugo.io/getting-started/quick-start/) of Hugo.
+### Contributing
+Have you found a bug or got an idea for a new feature? Feel free to use
+the [issue tracker][issue-tracker] to let me know. Or make directly a
+[merge request][merge-request].
 
-## Contributing
+### Acknowledgements
 
-Have you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](https://github.com/Vimux/blank/issues) to let me know. Or make directly a [pull request](https://github.com/Vimux/blank/pulls).
+This theme was created from scratch and influenced by the following two
+Hugo themes:
 
-## License
+- [colorchestra's smol][smol-colorchestra]
+- [Sumner Evans's smol][smol-sumner]
 
-This theme is released under the [MIT license](https://github.com/Vimux/blank/blob/master/LICENSE).
+[hugo]: https://gohugo.io/
+[theme-collection]: https://themes.gohugo.io/themes/smigle-hugo-theme/
+[screenshot-1]: https://gitlab.com/ian-s-mcb/smigle-hugo-theme/-/raw/main/images/screenshot.png
+[font]: https://github.com/be5invis/iosevka
+[issue-tracker]: https://gitlab.com/ian-s-mcb/smigle-hugo-theme/-/issues
+[merge-request]: https://gitlab.com/ian-s-mcb/smigle-hugo-theme/-/merge_requests
+[smol-sumner]: https://github.com/sumnerevans/smol
+[smol-colorchestra]: https://github.com/colorchestra/smol
